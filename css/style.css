@@ -1,0 +1,25 @@
+/* common settings */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a, a:link, a:visited, a:hover, a:active{
+  text-decoration: none;
+  color: inherit;
+}
+/* /common settings */
+
+/* utilities */
+.float-l{
+  float: left;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* /utilities */
