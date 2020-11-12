@@ -11,6 +11,7 @@ a, a:link, a:visited, a:hover, a:active{
 }
 
 body{
+  font-family: 'Roboto', sans-serif;
   color: #33475B;
 }
 
@@ -85,4 +86,50 @@ header li{
 
 .logo{
   margin-top: 10px;
+}
+
+.jumbotron-bg{
+  height: 680px;
+  background: #FFF3EE url(../img/jumbotron.png) no-repeat right bottom;
+  position: relative;
+}
+
+.repair-bad-img::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 78px;
+  background: #AFEBE4;
+  border-top: 3px solid #33475B;
+  border-bottom: 3px solid #33475B;
+  position: absolute;
+  bottom: 0;
+}
+
+header .jumbotron{
+  width: 50%;
+  padding-top: 50px;
+}
+
+h1{
+  font-size: 50px;
+  padding: 30px 0;
+}
+
+.jumbotron-txt{
+  padding: 10px 0;
+  line-height: 25px;
+}
+
+header .jumbotron .button{
+  font-size: 14px;
+  height: 60px;
+  line-height: 60px;
+  width: 200px;
+  margin: 20px 0;
+}
+
+.infobox{
+  font-size: 12px;
+  padding: 10px 0;
 }
