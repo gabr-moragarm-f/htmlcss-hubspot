@@ -24,6 +24,10 @@ body{
   float: left;
 }
 
+.float-r{
+  float: right;
+}
+
 .clearfix::after{
   content: "";
   display: table;
@@ -58,20 +62,14 @@ body{
 
 header li{
   display: inline-block;
+  margin: 0 10px;
 }
 
 .top-nav{
   background: #F4F9FD;
   border-bottom: 1px solid #33475B;
-}
-
-.top-nav nav{
   height: 80px;
   line-height: 80px;
-}
-
-.top-nav nav li{
-  margin: 0 10px;
 }
 
 .vertical-bar{
@@ -80,6 +78,11 @@ header li{
   border-right: 1px solid #33475B;
 }
 
-.top-nav nav ul:last-child{
-  float: right;
+.bottom-nav{
+  height: 80px;
+  line-height: 80px;
+}
+
+.logo{
+  margin-top: 10px;
 }
