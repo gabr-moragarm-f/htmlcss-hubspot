@@ -9,6 +9,14 @@ a, a:link, a:visited, a:hover, a:active{
   text-decoration: none;
   color: inherit;
 }
+
+body{
+  color: #33475B;
+}
+
+.container{
+  min-width: 1200px;
+}
 /* /common settings */
 
 /* utilities */
@@ -22,4 +30,56 @@ a, a:link, a:visited, a:hover, a:active{
   clear: both;
 }
 
+.width-limits{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.button{
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 10px;
+  text-align: center;
+  display: inline-block;
+  line-height: 40px;
+}
+
+.login-button{
+  border: 1px solid #FE775A;
+  color: #FE775A;
+}
+
+.button-type-orange{
+  color: #fff;
+  background: #FE775A;
+}
+
 /* /utilities */
+
+header li{
+  display: inline-block;
+}
+
+.top-nav{
+  background: #F4F9FD;
+  border-bottom: 1px solid #33475B;
+}
+
+.top-nav nav{
+  height: 80px;
+  line-height: 80px;
+}
+
+.top-nav nav li{
+  margin: 0 10px;
+}
+
+.vertical-bar{
+  content: "";
+  display: inline;
+  border-right: 1px solid #33475B;
+}
+
+.top-nav nav ul:last-child{
+  float: right;
+}
