@@ -233,3 +233,35 @@ h4.right-horizontal-line{
 .feature-box{
   padding: 30px 0;
 }
+
+.main-middle{
+  height: 700px;
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.main-middle p{
+  margin-bottom: 30px;
+}
+
+.grid-box{
+  width: 25%;
+  padding: 25px;
+  border:
+}
+
+.grid-img{
+  height: 33px;
+}
+
+.grid-number{
+  font-size: 45px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.grid-description{
+  font-size: 14px;
+}
