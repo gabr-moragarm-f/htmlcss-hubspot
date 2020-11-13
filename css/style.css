@@ -29,9 +29,19 @@ h2{
   padding: 10px 0;
 }
 
+h3{
+  font-size: 25px;
+  padding: 10px 0;
+}
+
+h4{
+  font-size: 20px;
+  padding: 10px 0;
+}
+
 p{
   padding: 10px 0;
-  line-height: 25px;
+  line-height: 30px;
 }
 /* /common settings */
 
@@ -63,6 +73,7 @@ p{
   text-align: center;
   display: inline-block;
   line-height: 40px;
+  margin: 10px 0;
 }
 
 .login-button{
@@ -73,6 +84,13 @@ p{
 .button-type-orange{
   color: #fff;
   background: #FE775A;
+}
+
+.box-base{
+  border-radius: 5px;
+  background: #fff;
+  padding: 20px 30px;
+  margin: 25px 0;
 }
 /* /utilities */
 
@@ -146,6 +164,72 @@ header .jumbotron .button{
 }
 
 .main-top .width-limits > p{
-  width: 1000px;
+  width: 800px;
   margin: 0 auto;
+}
+
+.big-box{
+  padding: 50px;
+}
+
+.book-img-button{
+  width: 25%;
+}
+
+.book-description{
+  text-align: left;
+  width: 75%;
+}
+
+h4.right-horizontal-line{
+  display: inline-block;
+  width:100%;
+}
+
+.right-horizontal-line::after{
+  content: "";
+  display: inherit;
+  width: 60%;
+  border-top: 2px solid #899397;
+  vertical-align: middle;
+  margin-left: 50px;
+}
+
+.fa-li{
+  color: #FE775A;
+  /* width: inherit; */
+}
+
+/* .fa-ul#menu{
+  position: static;
+} */
+
+.fa-ul{
+  padding: 15px 0;
+}
+
+.book-description .fa-ul li{
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.clearfix .box-base{
+  width: 366px;
+}
+
+.box-border{
+  padding: 0 10px 50px 10px;
+  border-bottom: 2px solid #899397;
+}
+
+.clearfix .box-base .fa-ul{
+  text-align: left;
+}
+
+.clearfix .box-base:nth-child(2){
+  margin: 25px 50px;
+}
+
+.feature-box{
+  padding: 30px 0;
 }
