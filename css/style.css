@@ -98,6 +98,15 @@ p{
   background: #fff;
   padding: 20px 30px;
   margin: 25px 0;
+  box-shadow: 0px 0px 5px 1px #ccc;
+}
+
+.border-r{
+  border-right: 1px solid #fff;
+}
+
+.border-bottom{
+  border-bottom: 1px solid #fff;
 }
 /* /utilities */
 
@@ -188,6 +197,10 @@ header .jumbotron{
   width: 75%;
 }
 
+.book-description p{
+  width: 75%;
+}
+
 h4.right-horizontal-line{
   display: inline-block;
   width:100%;
@@ -196,7 +209,7 @@ h4.right-horizontal-line{
 .right-horizontal-line::after{
   content: "";
   display: inherit;
-  width: 65%;
+  width: 60%;
   border-top: 2px solid #899397;
   vertical-align: middle;
   margin-left: 50px;
@@ -251,11 +264,6 @@ h4.right-horizontal-line{
 .grid-box{
   width: 25%;
   padding: 25px;
-  border: 0.5px solid #fff;
-}
-
-.grid-box:first-child, .grid-box:nth-child(5){
-  border-left: none;
 }
 
 .grid-img{
@@ -285,7 +293,7 @@ h4.right-horizontal-line{
 
 .customers-business{
   width: 1000px;
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
 }
 
 .customers-left{
